@@ -1,0 +1,170 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+.club-header {
+    background-color: #b00000;
+    color: white;
+    padding: 25px 15px;
+}
+
+.club-header img {
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.club-header h1 {
+    margin: 10px 0;
+    font-size: 32px;
+}
+
+.club-header p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+/* Navigation */
+.club-navbar {
+    background-color: #222;
+}
+
+.club-navbar .nav-link {
+    color: white;
+    margin-left: 10px;
+}
+
+.club-navbar .nav-link:hover,
+.club-navbar .nav-link.active {
+    color: #ffb3b3;
+}
+
+/* Main */
+main {
+    background-color: white;
+    min-height: 500px;
+}
+
+.content-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Headings */
+h2 {
+    color: #b00000;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #b00000;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Text */
+p {
+    line-height: 1.7;
+}
+
+ul,
+ol {
+    line-height: 2;
+    margin-left: 25px;
+}
+
+/* Images */
+figure {
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    border: 3px solid #b00000;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: #666;
+    font-style: italic;
+}
+
+.club-photo {
+    max-height: 420px;
+    object-fit: cover;
+}
+
+/* News Cards */
+.news-card {
+    background-color: #f2f2f2;
+    padding: 18px;
+    border-left: 5px solid #b00000;
+    border-radius: 5px;
+}
+
+/* Tables */
+table caption {
+    color: #b00000;
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: #b00000;
+}
+
+a:hover {
+    color: #222;
+}
+
+/* Definition List */
+dt {
+    color: #b00000;
+}
+
+/* Footer */
+.club-footer {
+    background-color: #222;
+    color: white;
+    padding: 25px 15px;
+}
+
+.club-footer address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+.club-footer a {
+    color: white;
+}
+
+.club-footer p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* Contact Form */
+form {
+    max-width: 800px;
+}
+
+legend {
+    color: #b00000;
+    font-weight: bold;
+}
+
+/* All Images */
+img {
+    height: auto;
+}
